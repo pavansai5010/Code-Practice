@@ -4,7 +4,7 @@ end = int(input("Enter yout ending number: "))
 def get_sqrs(start,end):
     print(f"square between {start} and {end} numbers")
     while start<=end:
-        print(start**2)
+        print(f"{start} {start**2}")
         start+=1
 
 get_sqrs(start,end)
