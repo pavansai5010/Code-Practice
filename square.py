@@ -6,5 +6,4 @@ def get_sqrs(start,end):
     while start<=end:
         print(f"{start} {start**2}")
         start+=1
-
 get_sqrs(start,end)
