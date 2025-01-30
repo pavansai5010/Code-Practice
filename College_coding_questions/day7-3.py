@@ -8,7 +8,8 @@ def palindrome(string):
     print(s)
     for i in s:
         l.append(i)
-    if "".join(l) == s:
+    
+    if "".join(l[::-1]) == s:
         return True
     else:
         return False
