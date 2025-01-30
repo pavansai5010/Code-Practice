@@ -9,7 +9,11 @@ def multiple():
     else:
         print(f"{n} is not a multiple of 27")
         
-# multiple() # function call
+multiple() # function call
+
+
+# ------------------------------------------------------------------------------------------------------------------
+
 
 '''2.You have two numbers, and your challenge is to write a program that performs both 
 addition and subtraction with them. However, if any subtraction results in a negative 
